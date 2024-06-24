@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Machine Learning 101 - Introduction"
-categories: AI
+title:  "Machine Learning 101 - Journey Introduction"
+categories: ["AI","Machine learning"]
 ---
 
 ## Introduction
