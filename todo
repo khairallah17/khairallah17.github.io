@@ -1,0 +1,41 @@
+Here's a structured list of concepts to cover in your LinkedIn post, grouped thematically:
+
+  ---
+  The problem / motivation
+  - Predicting car prices from mileage — a classic, intuitive real-world regression problem
+  - Why linear regression is a great starting point for understanding ML
+
+  The math behind linear regression
+  - The hypothesis function: price = θ₀ + θ₁ × km
+  - What θ₀ (intercept) and θ₁ (slope) represent
+  - The cost function: why we minimize the sum of squared errors
+
+  Gradient descent
+  - The core idea: iteratively nudging parameters in the direction that reduces error
+  - The role of the learning rate
+  - How you tracked convergence by logging MSE per epoch
+
+  Data preprocessing
+  - Why raw mileage values (up to 240,000 km) would cause instability during training
+  - Z-score normalization: centering and scaling the input
+  - The relationship between normalization and gradient descent stability
+
+  Evaluation metrics
+  - RSS (Residual Sum of Squares) — raw error signal
+  - RMSE (Root Mean Squared Error) — interpretable error in price units
+  - R² (coefficient of determination) — how much variance the model explains
+
+  Visualization
+  - Plotting the regression line against the scatter of actual prices
+  - The convergence curve: watching MSE drop over 1000 epochs
+  - Density/distribution curve of the normalized input
+
+  Train / predict separation
+  - Saving learned parameters (θ₀, θ₁) to a JSON file after training
+  - Loading them at prediction time to score new data from a CSV
+  - Clean separation of concerns between train.py and predict.py
+
+  Takeaways worth highlighting
+  - Building ML from scratch (no sklearn) deepens understanding of what libraries do for you
+  - The gap between theory (equations) and implementation (vectorized numpy operations)
+  - This is a 42 school project — shows you implemented it without black-box libraries
