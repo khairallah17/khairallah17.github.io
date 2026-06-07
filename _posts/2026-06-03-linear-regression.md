@@ -311,3 +311,7 @@ A few things that stuck with me:
 - **The learning rate is more art than science** you feel it out through trial and error
 - **R² puts everything in context** a low RMSE means nothing if the baseline is just as good
 - **Separating train and predict early** makes your code cleaner and your thinking clearer
+
+---
+
+The full source code is available on GitHub: [khairallah17/linear_regression](https://github.com/khairallah17/linear_regression)
